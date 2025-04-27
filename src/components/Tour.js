@@ -24,11 +24,11 @@ function Tour({tours,onRemove }) {
                         <h4>{tours.name}</h4>
                         <h4>{tours.price}</h4>
                     </div>
-                    <p id={`tour-item-para-${tours.id}`} >
+                    <p id={`tour-item-para-rec6d6T3q5EBIdCfD`} >
                     {readMoreStates[tours.id] 
                   ? tours.description
                   : `${tours.description.substring(0, 200)}...`} 
-                <button onClick={() => toggleReadMore(tours.id)}  id={`delete-btn-${tours.id}`} >
+                <button onClick={() => toggleReadMore(tours.id)}  id={`delete-btn-rec6d6T3q5EBIdCfD`} >
                   {readMoreStates[tours.id] ? 'Show less' : 'Show more'}
                 </button>
                     </p>
