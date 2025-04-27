@@ -29,7 +29,7 @@ function Tour({tours,onRemove }) {
                   ? tours.description
                   : `${tours.description.substring(0, 200)}...`} 
                 <button onClick={() => toggleReadMore(tours.id)}  id={`see-more-rec6d6T3q5EBIdCfD`} >
-                  {readMoreStates[tours.id] ? 'Show less' : 'Show more'}
+                  {readMoreStates[tours.id] ? 'See less' : 'See more'}
                 </button>
                     </p>
                     <button onClick={()=>{onRemove(tours.id)}}  id={`delete-btn-rec6d6T3q5EBIdCfD`} >Remove</button>
